@@ -37,7 +37,7 @@ AudioFileSourceID3 *id3;
 AudioGeneratorWAV *wav;
 AudioFileSourceSPIFFS *file_fs;
 
-extern const uint8_t boot_music[4365];
+extern const uint8_t boot_music[74973];
 #endif
 
 #define LVGL_MESSAGE_PROGRESS_CHANGED_ID (88)
@@ -2395,7 +2395,7 @@ void settingPlayer()
     id3 = new AudioFileSourceID3(file);
     out = new AudioOutputI2S(1, AudioOutputI2S::EXTERNAL_I2S);
     out->SetPinout(BOARD_DAC_IIS_BCK, BOARD_DAC_IIS_WS, BOARD_DAC_IIS_DOUT);
-    out->SetGain(0.2);
+    out->SetGain(0.3);
     mp3 = new AudioGeneratorMP3();
     mp3->begin(id3, out);
 
