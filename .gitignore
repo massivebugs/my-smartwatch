@@ -1,0 +1,11 @@
+.vscode
+.DS_Store
+build
+make
+# .gitignore
+script
+.pio
+
+# Ignore everything in assets folder except README
+assets/*
+!assets/README
