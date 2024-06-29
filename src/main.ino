@@ -2602,8 +2602,11 @@ static void PDM_Record(const char *song_name, uint32_t duration)
 void setup()
 {
     // Stop wifi
+    // TODO: Do we need this?
     WiFi.mode(WIFI_MODE_NULL);
 
+    // Stop bluetooth
+    // TODO: Do we need this?
     btStop();
 
     setCpuFrequencyMhz(160);

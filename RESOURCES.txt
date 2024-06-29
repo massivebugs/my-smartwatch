@@ -1,0 +1,12 @@
+Assets:
+boot_music - https://dova-s.jp/se/play1468.html
+
+Docs:
+
+### Wifi ###
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_wifi.html
+
+
+### Clock speed and Power management ###
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/kconfig.html#config-esp32-default-cpu-freq-mhz
+https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/power_management.html
